@@ -1,0 +1,15 @@
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git add manipulating.c
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git commit -m "v3"
+[main f2fe85e] v3
+ 1 file changed, 26 insertions(+)
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit f2fe85e7adb100b9d90388fe5a95ab018e849f27 (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 16:14:24 2024 -0400
+
+    v3
