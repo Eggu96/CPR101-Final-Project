@@ -1,0 +1,16 @@
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git add fundamentals.c
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git commit -m "v3"
+[main 1c87ae4] v3
+ 1 file changed, 19 insertions(+)
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit 1c87ae4b96df42ef683294f122a7564fd5f9864c (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 16:11:23 2024 -0400
+
+    v3
+
