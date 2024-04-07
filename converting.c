@@ -20,4 +20,21 @@ void converting(void) {
 
 	} while (strcmp(intString, "q") != 0); //Repeats loop until input is "q" 
 	printf("*** End of Converting Strings to int Demo ***\n\n"); // Displays End of Converting Strings Message
+	
+	//Version 2 of Converting Module
+	//Displays Title of Demo
+	printf("*** Start of Converting Strings to double Demo ***\n");
+	//Declares variables
+	char doubleString[BUFFER_SIZE];
+	double doubleNumber;
+	do { //Loops until user enters "q"
+		printf("Type the double numeric string (q - to quit:\n"); //Prompts user for input 
+		fgets(doubleString, BUFFER_SIZE, stdin); //Reads input from standard input (stdin) and stores into doubleString
+		doubleString[strlen(doubleString) - 1] = '\0'; //Removes newline character from input
+		if ((strcmp(doubleString, "q") != 0)) { //Check if user input not equal to "q"
+			doubleNumber = atof(doubleString); //Convert string to double by using atof function
+			printf("Converted number is %f\n", doubleNumber); //Prints converted number
+		}
+	} while (strcmp(doubleString, "q") != 0); //Continues loop until user enters "q"
+	printf("*** End of Converting Strings to double Demo ***\n\n"); //Displays end of demo message
 }
