@@ -1,0 +1,20 @@
+
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git commit -m "v2"
+[main 02f3900] v2
+ 1 file changed, 17 insertions(+)
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit 02f3900a4d6b482525ca055bc2db43a528e21408 (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 15:50:37 2024 -0400
+
+    v2
+
+commit 85219defc90da8132063d24dc70925ac1f351f23 (origin/main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 12:46:46 2024 -0400
+
+    v1
