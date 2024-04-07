@@ -1,0 +1,16 @@
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git add tokenizing.c
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git commit -m "v3"
+[main 8ceb05d] v3
+ 1 file changed, 23 insertions(+)
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit 8ceb05d23a9060f1d9bea3c81d219a38748543ce (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 16:15:34 2024 -0400
+
+    v3
+
