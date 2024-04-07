@@ -27,4 +27,18 @@ void fundamentals(void) { // Function to demonstrate index strings
 		}
 	} while (strcmp(buffer1, "q") != 0); // Continue until user inputs 'q' to quit
 	printf("*** End of Indexing Strings Demo ***\n\n"); // End of index strings demonstration
+	
+	// Version 2 of Fundamental Module
+	printf("*** Start of Measuring Strings Demo ***\n");
+	//Declare buffer to store user input
+	char buffer2[BUFFER_SIZE];
+	do { //Loop continues until user inputs "q"
+		printf("Type a string (q - to quit):\n"); //Prompts user to input
+		fgets(buffer2, BUFFER_SIZE, stdin); //Reads user input 
+		buffer2[strlen(buffer2) - 1] = '\0'; //Removes newline character from input
+		if (strcmp(buffer2, "q") != 0) { //Checks if user input not equal to "q"
+			printf("The length of \'%s\' is %d characters\n", buffer2, (int)strlen(buffer2)); //Prints the length of user input
+		}
+	} while (strcmp(buffer2, "q") != 0); //Continues loop unter input is "q"
+	printf("*** End of Measuring Strings Demo ***\n\n"); //Displays end of demo message
 }
