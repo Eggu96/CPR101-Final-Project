@@ -1,0 +1,15 @@
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git add converting.c
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git commit -m "v3"
+[main a0d5c20] v3
+ 1 file changed, 17 insertions(+)
+
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit a0d5c2025e36fbc6d81af5d788336defa9f1c593 (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 16:13:13 2024 -0400
+
+    v3
