@@ -1,0 +1,13 @@
+ryanl@Ryanc MINGW64 ~/OneDrive/Desktop/finalprojectgit (main)
+$ git log
+commit 9f1fdb2ac6f409b23d758ac77180ac838d09ad65 (HEAD -> main)
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 15:54:49 2024 -0400
+
+    v2
+
+commit 3e456ae16eafd8f4bb5bdd700bc2ccd783f13924
+Author: Ryan Cha <ryancha9601@gmail.com>
+Date:   Sun Apr 7 12:57:15 2024 -0400
+
+    v1
