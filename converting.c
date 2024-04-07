@@ -37,4 +37,21 @@ void converting(void) {
 		}
 	} while (strcmp(doubleString, "q") != 0); //Continues loop until user enters "q"
 	printf("*** End of Converting Strings to double Demo ***\n\n"); //Displays end of demo message
+	
+	//Version 3 of Converting Module
+	//Displays Modules Beginning Message
+	printf("*** Start of Converting Strings to long Demo ***\n");
+	//Declares character array to store user input and a variable for the converted long integer
+	char longString[BUFFER_SIZE];
+	long longNumber;
+	do { //Starts loop until user input "q"
+		printf("Type the long numeric string (q - to quit): \n"); //Prompts user input
+		fgets(longString, BUFFER_SIZE, stdin); //Reads user input and stores into longString
+		longString[strlen(longString) - 1] = '\0'; //Removes newline from user input
+		if ((strcmp(longString, "q") != 0)) { //Checks if input not equal to "q"
+			longNumber = atol(longString); //Convert the string to a long integer using atol function
+			printf("Converted number is %ld\n", longNumber); //Prints the converted number
+		}
+	} while (strcmp(longString, "q") != 0); //Continues loop until "q" is entered
+	printf("*** End of Converting Strings to long Demo ***\n\n"); //Displays End Of Demo Message
 }
