@@ -41,4 +41,23 @@ void fundamentals(void) { // Function to demonstrate index strings
 		}
 	} while (strcmp(buffer2, "q") != 0); //Continues loop unter input is "q"
 	printf("*** End of Measuring Strings Demo ***\n\n"); //Displays end of demo message
+	
+	// Version 3 of Fundamentals Module
+	//Displays Beginning Message of Module
+	printf("*** Start of Copying Strings Demo ***\n");
+	//Declares variables and stores user input
+	char destination[BUFFER_SIZE];
+	char source[BUFFER_SIZE];
+	do { //Loop continues until user input is "q"
+		destination[0] = '\0'; //Reset destination string to empty
+		printf("Destination string is reset to empty\n"); //Prints Mesage
+		printf("Type the source string (q - to quit):\n"); //Prompt for user input
+		fgets(source, BUFFER_SIZE, stdin); //Reads user input and stores into source
+		source[strlen(source) - 1] = '\0'; //Removes newline character from user input
+		if (strcmp(source, "q") != 0) { //Checks if input not equal to "q"
+			strcpy(destination, source); //Copy the string to destination
+			printf("New destination string is \'%s\'\n", destination); //Prints the new destination
+		}
+	} while (strcmp(source, "q") != 0); //Loop continues until input is "q"
+	printf("*** End of Copying Strings Demo ***\n\n"); //Displays End Of Demo Message
 }
